@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header/Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='/' element={<Header />} />
+				<Route path='/' element={<Home />} />
 			</Routes>
 		</BrowserRouter>
 	);
