@@ -7,7 +7,7 @@ import './TopNavigation.css';
 const TopNavigation = () => {
 	return (
 		<>
-			<Navbar collapseOnSelect expand='lg' fixed='top'>
+			<Navbar collapseOnSelect expand='lg'>
 				<Container className='nav-bar'>
 					<div>
 						<NavLink to='/'>
