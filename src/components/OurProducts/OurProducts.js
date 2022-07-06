@@ -23,7 +23,7 @@ const OurProducts = () => {
 					</Col>
 				</Row>
 			</Container>
-			<Container className='container'>
+			<Container className='container mt-5'>
 				<Row>
 					<Col lg={4} md={4} sm={12}>
 						<h3>SwipeXYZ Product</h3>
