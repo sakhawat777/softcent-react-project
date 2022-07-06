@@ -1,8 +1,22 @@
 .background-img{
   background-image: url("../../asset//images/background/Rectangle1.png"); 
-    height: 40vh;
-    width: 100%;
+    height: 92vh;
+    width: 742px;
     background-size: cover;
     background-repeat: no-repeat;
           
+}
+.iphone1{
+ z-index: 2;
+}
+.iphone2{
+position:absolute;
+right: 200px;
+z-index: 1;
+
+}
+
+.product-container{
+  width: 1440px;
+  height: 585px;
 }

@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import iPhone1 from '../../asset/images/mockup/iPhone1.png';
+import iPhone2 from '../../asset/images/mockup/iPhone2.png';
 import './OurProducts.css';
 const OurProducts = () => {
 	return (
@@ -23,7 +25,7 @@ const OurProducts = () => {
 					</Col>
 				</Row>
 			</Container>
-			<Container className='container mt-5'>
+			<Container className='container product-container mt-5'>
 				<Row>
 					<Col lg={4} md={4} sm={12}>
 						<h3>SwipeXYZ Product</h3>
@@ -37,7 +39,10 @@ const OurProducts = () => {
 						<button>View product</button>
 					</Col>
 					<Col lg={6} md={6} sm={12}>
-						<div className='background-img'></div>
+						<div className='background-img d-flex align-items-center'>
+							<img className='iphone1' src={iPhone1} alt='' />
+							<img className='iphone2' src={iPhone2} alt='' />
+						</div>
 					</Col>
 				</Row>
 			</Container>
