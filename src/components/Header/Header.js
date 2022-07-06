@@ -25,14 +25,14 @@ const Header = () => {
 							</p>
 						</div>
 					</Col>
-					<Col lg={4} md={4} sm={12}>
+					{/* <Col lg={4} md={4} sm={12}>
 						<div className='main-header-2'>
 							<img className='Vector-1' src={Vector1} alt='' />
 							<img className='Vector-2' src={Vector2} alt='' />
 							<img className='Vector-3' src={Vector3} alt='' />
 							<img className='Vector-4' src={Vector4} alt='' />
 						</div>
-					</Col>
+					</Col> */}
 				</Row>
 			</Container>
 		</Fragment>
