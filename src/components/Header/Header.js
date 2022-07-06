@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import './Header.css';
-import Vector1 from '../../asset/images/Vector1.png';
-import Vector2 from '../../asset/images/Vector2.png';
-import Vector3 from '../../asset/images/Vector3.png';
-import Vector4 from '../../asset/images/Vector4.png';
+import Vector1 from '../../asset/images/vectors/Vector1.png';
+import Vector2 from '../../asset/images/vectors/Vector2.png';
+import Vector3 from '../../asset/images/vectors/Vector3.png';
+import Vector4 from '../../asset/images/vectors/Vector4.png';
 const Header = () => {
 	return (
 		<Fragment>
