@@ -5,6 +5,7 @@ import OurProducts from '../components/OurProducts/OurProducts';
 import TopNavigation from '../components/TopNavigation/TopNavigation';
 import Video from '../components/Video/Video';
 import WhatWeDo from '../components/WhatWeDo/WhatWeDo';
+import YourPlan from '../components/YourPlan/YourPlan';
 
 const Home = () => {
 	return (
@@ -15,6 +16,7 @@ const Home = () => {
 			<OurCustomers />
 			<WhatWeDo />
 			<OurProducts />
+			<YourPlan />
 		</>
 	);
 };

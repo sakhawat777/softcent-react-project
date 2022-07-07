@@ -1,0 +1,28 @@
+.monthly-btn{
+    background-color: #CEDEF4;
+    width:100px;
+    height:35px;
+    border: none;
+    border-radius: 7px;
+}
+.yearly-btn{
+    color: #FFFF;
+    background-color: #2D5BFF;
+    width:100px;
+    height:35px;
+    border: none;
+    border-radius: 7px;
+}
+.plan-info{
+    width: 14px;
+    height:10.11px;
+    margin-top: 5px;
+    
+}
+.plan-para{
+    font-size:smaller;
+}
+.plan-block{
+    background-color:rgba(48, 136, 255, 0.05);
+    border-radius: 10px;
+}
