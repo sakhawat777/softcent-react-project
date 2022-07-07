@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import iPhone1 from '../../asset/images/mockup/iPhone1.png';
 import iPhone2 from '../../asset/images/mockup/iPhone2.png';
+import iPhone3 from '../../asset/images/mockup/iPhone3.png';
+import iPhone4 from '../../asset/images/mockup/iPhone4.png';
 import './OurProducts.css';
 const OurProducts = () => {
 	return (
@@ -27,25 +29,50 @@ const OurProducts = () => {
 			</Container>
 			<Container className='container product-container mt-5'>
 				<Row>
-					<Col lg={4} md={4} sm={12}>
-						<h3>SwipeXYZ Product</h3>
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and
-							typesetting industry. Lorem Ipsum has been the industry's
-							standard dummy text ever since the 1500s, when an unknown
-							printer took a galley of type and scrambled it to make a
-							type specimen book.
-						</p>
-						<button>View product</button>
+					<Col lg={6} md={6} sm={12}>
+						<div className='product-section'>
+							<h3>SwipeXYZ Product</h3>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and{' '}
+								<br />
+								typesetting industry. Lorem Ipsum has been the <br />{' '}
+								industry's standard dummy text ever since the 1500s,{' '}
+								<br /> when an unknown printer took a galley of type and{' '}
+								<br /> scrambled it to make a type specimen book.
+							</p>
+							<button className='product-btn'>View product</button>
+						</div>
 					</Col>
 					<Col lg={6} md={6} sm={12}>
-						<div className='background-img d-flex align-items-center'>
+						<div className='background-img'>
 							<img className='iphone1' src={iPhone1} alt='' />
 							<img className='iphone2' src={iPhone2} alt='' />
 						</div>
 					</Col>
 				</Row>
 			</Container>
+
+			<Row>
+				<Col lg={6} md={6} sm={12}>
+					<div className='background-img2'>
+						<img className='iphone3 mockup' src={iPhone3} alt='' />
+						<img className='iphone4 mockup' src={iPhone4} alt='' />
+					</div>
+				</Col>
+				<Col lg={6} md={6} sm={12}>
+					<div className='product-section ms-5'>
+						<h3>Cashback Product</h3>
+						<p>
+							Lorem Ipsum is simply dummy text of the printing and <br />
+							typesetting industry. Lorem Ipsum has been the <br />{' '}
+							industry's standard dummy text ever since the 1500s, <br />{' '}
+							when an unknown printer took a galley of type and <br />{' '}
+							scrambled it to make a type specimen book.
+						</p>
+						<button className='product-btn'>View product</button>
+					</div>
+				</Col>
+			</Row>
 		</Fragment>
 	);
 };

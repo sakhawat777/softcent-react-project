@@ -1,22 +1,59 @@
 .background-img{
-  background-image: url("../../asset//images/background/Rectangle1.png"); 
-    height: 92vh;
-    width: 742px;
-    background-size: cover;
+  background-image: url("../../asset/images/background/Rectangle1.png"); 
+    height: 62.7vh;
+    width: 965px;
+    background-size:cover;
     background-repeat: no-repeat;
           
 }
+.background-img2{
+  background-image: url("../../asset/images/background/Rectangle2.png"); 
+    height: 62.7vh;
+    width: 965px;
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+          
+}
 .iphone1{
+  position: relative;
  z-index: 2;
+ margin-left: 120px;
 }
 .iphone2{
 position:absolute;
 right: 200px;
 z-index: 1;
+margin-top: 30px;
+
+}
+.iphone3{
+  position: absolute;
+ z-index: 2;
+ margin-right: 125px;
+}
+.iphone4{
+position: relative;
+left: 276px;
+z-index: 1;
+margin-top: 30px;
 
 }
 
 .product-container{
   width: 1440px;
   height: 585px;
+}
+.product-btn{
+  background-color: #CEDEF4;
+ width: 159.35px;
+ height:52px;
+ border: none;
+ border-radius: 7px;
+}
+.product-section{
+  margin-top: 150px;
+}
+.mockup{
+ margin-left: 130px;
 }
