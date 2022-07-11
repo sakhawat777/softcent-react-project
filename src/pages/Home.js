@@ -1,4 +1,5 @@
 import React from 'react';
+import DesignTechnology from '../components/DesignTechnology/DesignTechnology';
 import DevTechnology from '../components/DevTechnology/DevTechnology';
 import Header from '../components/Header/Header';
 import OurCustomers from '../components/OurCustomers/OurCustomers';
@@ -23,6 +24,7 @@ const Home = () => {
 			<TalkAbout />
 			<OurPortfolio />
 			<DevTechnology />
+			<DesignTechnology />
 		</>
 	);
 };
