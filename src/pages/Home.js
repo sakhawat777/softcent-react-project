@@ -1,6 +1,7 @@
 import React from 'react';
 import DesignTechnology from '../components/DesignTechnology/DesignTechnology';
 import DevTechnology from '../components/DevTechnology/DevTechnology';
+import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 import OurCustomers from '../components/OurCustomers/OurCustomers';
 import OurPortfolio from '../components/OurPortfolio/OurPortfolio';
@@ -27,6 +28,7 @@ const Home = () => {
 			<DevTechnology />
 			<DesignTechnology />
 			<Workflow />
+			<Footer />
 		</>
 	);
 };

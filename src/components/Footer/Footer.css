@@ -1,0 +1,44 @@
+.bg-img{
+    background-image: url("../../asset/images/rectangle/rectangle20.png"); 
+    width: 100%;
+    height: 180px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    border-radius: 10px;
+}
+.bg-header{
+    color: #FFFF;
+}
+.project-btn{
+    background-color: #CEDEF4;
+    width:auto;
+    height:35px;
+    border: none;
+    border-radius: 5px;
+}
+.footer-para{
+    font-size:x-small;
+}
+.fb-img{
+    background-image: url("../../asset/images/socialMedia/fb-bg.png"); 
+    width:16px;
+    height: 16px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.insta-img{
+   width: 10px;
+   height:10px;
+   position: relative;
+  right: 13px;
+}
+.insta-dot{
+    width:3px;
+    height:3px;
+    position: relative;
+    right: 16px;
+    bottom: 4px;
+   
+}
