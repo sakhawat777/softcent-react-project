@@ -1,4 +1,5 @@
 import React from 'react';
+import DevTechnology from '../components/DevTechnology/DevTechnology';
 import Header from '../components/Header/Header';
 import OurCustomers from '../components/OurCustomers/OurCustomers';
 import OurPortfolio from '../components/OurPortfolio/OurPortfolio';
@@ -21,6 +22,7 @@ const Home = () => {
 			<YourPlan />
 			<TalkAbout />
 			<OurPortfolio />
+			<DevTechnology />
 		</>
 	);
 };
