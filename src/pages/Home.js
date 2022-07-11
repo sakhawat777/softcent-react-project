@@ -9,6 +9,7 @@ import TalkAbout from '../components/TalkAbout/TalkAbout';
 import TopNavigation from '../components/TopNavigation/TopNavigation';
 import Video from '../components/Video/Video';
 import WhatWeDo from '../components/WhatWeDo/WhatWeDo';
+import Workflow from '../components/Workflow/Workflow';
 import YourPlan from '../components/YourPlan/YourPlan';
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
 			<OurPortfolio />
 			<DevTechnology />
 			<DesignTechnology />
+			<Workflow />
 		</>
 	);
 };
