@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header/Header';
 import OurCustomers from '../components/OurCustomers/OurCustomers';
+import OurPortfolio from '../components/OurPortfolio/OurPortfolio';
 import OurProducts from '../components/OurProducts/OurProducts';
 import TalkAbout from '../components/TalkAbout/TalkAbout';
 import TopNavigation from '../components/TopNavigation/TopNavigation';
@@ -19,6 +20,7 @@ const Home = () => {
 			<OurProducts />
 			<YourPlan />
 			<TalkAbout />
+			<OurPortfolio />
 		</>
 	);
 };
