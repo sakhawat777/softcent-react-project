@@ -1,15 +1,15 @@
 .background-img{
   background-image: url("../../asset/images/background/Rectangle1.png"); 
-    height: 75vh;
-    width: 780px;
+    height: 94.5vh;
+    width: 690px;
     background-size:cover;
     background-repeat: no-repeat;
           
 }
 .background-img2{
   background-image: url("../../asset/images/background/Rectangle2.png"); 
-    height: 75vh;
-    width: 785px;
+    height: 94.5vh;
+    width: 690px;
     background-size:cover;
     background-repeat: no-repeat;
    
@@ -18,11 +18,11 @@
 .iphone1{
   position: relative;
  z-index: 2;
- margin-left: 120px;
+ margin-left: 50px;
 }
 .iphone2{
 position:absolute;
-right: 200px;
+right: 50px;
 z-index: 1;
 margin-top: 30px;
 
@@ -56,5 +56,6 @@ margin-top: 30px;
   margin-top: 150px;
 }
 .mockup{
- margin-left: 130px;
+ /* margin-left: 10px; */
+ align-items: center;
 }

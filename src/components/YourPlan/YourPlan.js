@@ -19,7 +19,7 @@ const YourPlan = () => {
 					<button className='yearly-btn'>Yearly</button>
 				</div>
 				<Row>
-					<Col lg={3} md={3} sm={12}>
+					<Col lg={4} md={4} sm={12}>
 						<div className='plan-block mt-5'>
 							<div className='d-flex justify-content-between'>
 								<h6 className='mb-4'>Merketing</h6>
@@ -62,6 +62,113 @@ const YourPlan = () => {
 							<div className='d-flex'>
 								<img className='plan-info me-2' src={vector} alt='' />
 								<p className='plan-para'>Logo & Brand Guide</p>
+							</div>
+							<div>
+								<button className='price-btn text-center'>
+									$899 / mo
+								</button>
+							</div>
+						</div>
+					</Col>
+					<Col lg={4} md={4} sm={12}>
+						<div className='plan-block2 mt-5'>
+							<div className='d-flex justify-content-between'>
+								<h6 className='mb-4'>Merketing</h6>
+								<p>$899/ mo</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Dedicated Designer</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Unlimited requests</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Unlimited brand profiles</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Native source files</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Real-time collaboration</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Banner Ads</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>
+									Clothing & Merchandise Design
+								</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Packaging & Label</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Logo & Brand Guide</p>
+							</div>
+							<div>
+								<button className='price-btn text-center'>
+									$899 / mo
+								</button>
+							</div>
+						</div>
+					</Col>
+					<Col lg={4} md={4} sm={12}>
+						<div className='plan-block mt-5'>
+							<div className='d-flex justify-content-between'>
+								<h6 className='mb-4'>Merketing</h6>
+								<p>$899/ mo</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Dedicated Designer</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Unlimited requests</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Unlimited brand profiles</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Native source files</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Real-time collaboration</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Banner Ads</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>
+									Clothing & Merchandise Design
+								</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Packaging & Label</p>
+							</div>
+							<div className='d-flex'>
+								<img className='plan-info me-2' src={vector} alt='' />
+								<p className='plan-para'>Logo & Brand Guide</p>
+							</div>
+							<div>
+								<button className='price-btn text-center'>
+									$899 / mo
+								</button>
 							</div>
 						</div>
 					</Col>

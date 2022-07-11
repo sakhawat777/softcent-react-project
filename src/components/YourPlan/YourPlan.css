@@ -26,3 +26,15 @@
     background-color:rgba(48, 136, 255, 0.05);
     border-radius: 10px;
 }
+.plan-block2{
+    background-color: #2D5BFF;
+    border-radius: 10px;
+}
+.price-btn{
+    color: #FFFF;
+    background-color: #F6A00E;
+    width:273.22px;
+    height:46px;
+    border: none;
+    border-radius: 7px;
+}

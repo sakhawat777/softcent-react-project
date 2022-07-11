@@ -45,8 +45,8 @@ const OurProducts = () => {
 					</Col>
 					<Col lg={6} md={6} sm={12}>
 						<div className='background-img'>
-							<img className='iphone1' src={iPhone1} alt='' />
-							<img className='iphone2' src={iPhone2} alt='' />
+							<img className='iphone1 mockup' src={iPhone1} alt='' />
+							<img className='iphone2  mockup' src={iPhone2} alt='' />
 						</div>
 					</Col>
 				</Row>
