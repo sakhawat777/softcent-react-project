@@ -1,3 +1,6 @@
+.main-container{
+    overflow: hidden;
+}
 .bg-img{
     background-image: url("../../asset/images/rectangle/rectangle20.png"); 
     width: 100%;
@@ -96,4 +99,7 @@
     line-height: 22px;
     text-align: center;
     color: rgba(4, 4, 21, 0.6);
+}
+@media (max-width: 768px) {
+	
 }

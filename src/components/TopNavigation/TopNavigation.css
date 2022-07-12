@@ -12,8 +12,13 @@
 	text-decoration: none;
     margin-right: 15px;
 	color: rgba(4, 4, 21, 0.8);
-	
-	
+}
+@media (max-width: 768px) {
+	.nav-bar{
+		width: 90%;
+		overflow: hidden;
+		
+	}
 }
 
 

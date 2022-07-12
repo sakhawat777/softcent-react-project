@@ -9,11 +9,11 @@ import underline1 from '../../asset/images/underlines/underline1.png';
 const Header = () => {
 	return (
 		<Fragment>
-			<Container className='container'>
+			<Container className='container main-section'>
 				<Row>
 					<Col lg={8} md={8} sm={12}>
 						<div className='main-header'>
-							<h2>
+							<h2 className=' header-h2'>
 								Software services for <br /> startups without <br />{' '}
 								limits..
 							</h2>

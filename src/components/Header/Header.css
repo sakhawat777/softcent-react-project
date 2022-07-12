@@ -1,4 +1,4 @@
-.main-header h2 {
+.header-h2 {
   font-family: 'Overlock';
   font-weight: 700;
   font-size:64px;
@@ -43,4 +43,57 @@
   bottom: 195px;
   right: 160px;
  
+}
+@media (max-width: 768px) {
+	.main-section{
+		width: 80%;
+		overflow: hidden;
+		
+	}
+  .header-h2 {
+    font-family: 'Overlock';
+    font-weight: 700;
+    font-size: 80%;
+    line-height:100%;
+    color: rgba(4, 4, 21, 0.8);
+  }
+  .main-header-2{
+      width: 60%;
+      height: 60%;
+  }
+  .header-para{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size:70%;
+    line-height: 70%;
+    color: rgba(4, 4, 21, 0.6);
+  }
+  .vector-1{
+    position:relative;
+    top: 200px;
+    right: 20px;
+  }
+  .vector-2{
+     position: relative;
+     top: 350px;
+    
+      
+  }
+  .vector-3{
+    position:absolute;
+   right:100px;
+     
+  }
+  .vector-4{
+      position: relative;
+     left: 60px;
+  }
+  .underline-1{
+    width: 30%;
+    position: absolute;
+    bottom: 603px;
+    left: 55px;
+   
+  }
 }
