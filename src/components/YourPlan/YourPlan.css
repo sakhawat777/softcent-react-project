@@ -33,8 +33,9 @@
 .price-btn{
     color: #FFFF;
     background-color: #F6A00E;
-    width:273.22px;
-    height:46px;
+    width:200px;
+    height:35px;
     border: none;
-    border-radius: 7px;
+    border-radius: 12px;
+   
 }

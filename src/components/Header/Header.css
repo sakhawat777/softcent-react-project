@@ -1,0 +1,22 @@
+.main-header-2{
+    width: 60%;
+    height: 300px;
+}
+.vector-1{
+  position:absolute;
+  top: 200px;
+}
+.vector-2{
+   position:absolute;
+ top: 350px;
+    
+}
+.vector-3{
+  position:absolute;
+ right: 250px;
+   
+}
+.vector-4{
+    position: relative;
+   left: 150px;
+}

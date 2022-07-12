@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import './Header.css';
 import Vector1 from '../../asset/images/vectors/Vector1.png';
 import Vector2 from '../../asset/images/vectors/Vector2.png';
 import Vector3 from '../../asset/images/vectors/Vector3.png';
@@ -24,14 +25,14 @@ const Header = () => {
 							</p>
 						</div>
 					</Col>
-					{/* <Col lg={4} md={4} sm={12}>
+					<Col lg={6} md={6} sm={12}>
 						<div className='main-header-2'>
-							<img className='Vector-1' src={Vector1} alt='' />
-							<img className='Vector-2' src={Vector2} alt='' />
-							<img className='Vector-3' src={Vector3} alt='' />
-							<img className='Vector-4' src={Vector4} alt='' />
+							<img className='vector-1' src={Vector1} alt='' />
+							<img className='vector-2' src={Vector2} alt='' />
+							<img className='vector-3' src={Vector3} alt='' />
+							<img className='vector-4' src={Vector4} alt='' />
 						</div>
-					</Col> */}
+					</Col>
 				</Row>
 			</Container>
 		</Fragment>
