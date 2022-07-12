@@ -5,6 +5,7 @@ import js from '../../asset/images/devTechnology/js.png';
 import html from '../../asset/images/devTechnology/html.png';
 import css from '../../asset/images/devTechnology/css.png';
 import shell from '../../asset/images/devTechnology/shell.png';
+import underline15 from '../../asset/images/underlines/underline15.png';
 import './DevTechnology.css';
 
 const DevTechnology = () => {
@@ -12,6 +13,7 @@ const DevTechnology = () => {
 		<Fragment>
 			<Container className='main-container text-center '>
 				<h4 className='main-title'>Our Dev Technology</h4>
+				<img className=' underline-15' src={underline15} alt='' />
 				<Row>
 					<Col lg={3} md={3} sm={12}>
 						<h6>Programming Languages</h6>

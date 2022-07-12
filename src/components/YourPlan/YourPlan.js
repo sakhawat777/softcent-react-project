@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import './YourPlan.css';
 import vector from '../../asset/images/vectors/Vector.png';
+import underline5 from '../../asset/images/underlines/underline5.png';
+import rectangle11 from '../../asset/images/underlines/rectangle11.png';
 const YourPlan = () => {
 	return (
 		<Fragment>
@@ -9,6 +11,7 @@ const YourPlan = () => {
 				<h4 className='main-header text-center mb-4 mt-5'>
 					Pricing Package Choose Your Plan
 				</h4>
+				<img className='underline-5' src={underline5} alt='' />
 				<p className=' text-center'>
 					We believe that great design should not be out of reach, so our
 					services <br /> are less than half the price of a full-time
@@ -23,6 +26,11 @@ const YourPlan = () => {
 						<div className='plan-block mt-5'>
 							<div className='d-flex justify-content-between ms-3'>
 								<h6 className='mb-4 mt-3'>Merketing</h6>
+								<img
+									className='rectangle-11'
+									src={rectangle11}
+									alt=''
+								/>
 								<p className='mt-3 me-3'>$899/ mo</p>
 							</div>
 							<div className='d-flex'>
@@ -111,9 +119,14 @@ const YourPlan = () => {
 						</div>
 					</Col>
 					<Col lg={4} md={4} sm={12}>
-						<div className='plan-block2 mt-5'>
+						<div className='plan-block2 text-white mt-5'>
 							<div className='d-flex justify-content-between ms-3'>
 								<h6 className='mb-4 mt-3'>UI/UX Design</h6>
+								<img
+									className='rectangle-12'
+									src={rectangle11}
+									alt=''
+								/>
 								<p className='mt-3 me-3'>$1000/ mo</p>
 							</div>
 							<div className='d-flex'>
@@ -205,6 +218,11 @@ const YourPlan = () => {
 						<div className='plan-block mt-5'>
 							<div className='d-flex justify-content-between ms-3'>
 								<h6 className='mb-4 mt-3'>Development</h6>
+								<img
+									className='rectangle-13'
+									src={rectangle11}
+									alt=''
+								/>
 								<p className='mt-3 me-3'>$1000/ mo</p>
 							</div>
 							<div className='d-flex'>

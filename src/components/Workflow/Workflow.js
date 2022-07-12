@@ -1,13 +1,17 @@
 import React, { Fragment } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import workFlow from '../../asset/images/workFlow/workFlow.png';
+import underline17 from '../../asset/images/underlines/underline17.png';
 import './Workflow.css';
 
 const Workflow = () => {
 	return (
 		<Fragment>
 			<Container className='main-container'>
-				<h4 className='main-title  text-center'>Workflow</h4>
+				<div className='text-center'>
+					<h4 className='main-title  text-center'>Workflow</h4>
+					<img className='underline-17' src={underline17} alt='' />
+				</div>
 				<Row>
 					<Col lg={6} md={6} sm={12}>
 						<div className='mt-5 goal-section '>

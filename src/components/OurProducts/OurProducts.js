@@ -4,12 +4,14 @@ import iPhone1 from '../../asset/images/mockup/iPhone1.png';
 import iPhone2 from '../../asset/images/mockup/iPhone2.png';
 import iPhone3 from '../../asset/images/mockup/iPhone3.png';
 import iPhone4 from '../../asset/images/mockup/iPhone4.png';
+import underline4 from '../../asset/images/underlines/underline4.png';
 import './OurProducts.css';
 const OurProducts = () => {
 	return (
 		<Fragment>
 			<Container className='container'>
 				<h4 className='main-header mb-4 mt-5'>Our Products</h4>
+				<img className='underline-4' src={underline4} alt='' />
 				<Row>
 					<Col lg={6} md={6} sm={12}>
 						<div className='subtitle'>
@@ -21,7 +23,7 @@ const OurProducts = () => {
 						</div>
 					</Col>
 					<Col lg={6} md={6} sm={12}>
-						<div className='d-flex justify-content-center'>
+						<div className='d-flex justify-content-end'>
 							<button className='btn btn-primary'>See More</button>
 						</div>
 					</Col>

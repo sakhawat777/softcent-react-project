@@ -3,12 +3,15 @@ import { Row, Col, Container } from 'react-bootstrap';
 import cover1 from '../../asset/images/cover/cover1.png';
 import cover2 from '../../asset/images/cover/cover2.png';
 import mockup3 from '../../asset/images/cover/mockup3.png';
+import underline14 from '../../asset/images/underlines/underline14.png';
+import './OurPortfolio.css';
 
 const OurPortfolio = () => {
 	return (
 		<Fragment>
 			<Container className='main-container'>
 				<h4 className='main-title mb-5'>Our Portfolio</h4>
+				<img className='underline-14' src={underline14} alt='' />
 				<Row>
 					<Col lg={4} md={4} sm={12}>
 						<img src={cover1} alt='' />

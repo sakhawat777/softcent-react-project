@@ -3,12 +3,14 @@ import { Row, Col, Container } from 'react-bootstrap';
 import './WhatWeDo.css';
 import branding from '../../asset/images/logo/branding.png';
 import ux from '../../asset/images/logo/UX.png';
+import underline3 from '../../asset/images/underlines/underline3.png';
 
 const WhatWeDo = () => {
 	return (
 		<Fragment>
 			<Container className='main-container'>
 				<h4 className='main-title mb-5'>What We Do</h4>
+				<img className='underline-3' src={underline3} alt='' />
 				<Row>
 					<Col lg={4} md={4} sm={12}>
 						<div className='title-block mb-4'>

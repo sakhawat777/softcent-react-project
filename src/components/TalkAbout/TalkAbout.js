@@ -7,12 +7,14 @@ import rectangle2 from '../../asset/images/rectangle/rectangle2.png';
 import rectangle3 from '../../asset/images/rectangle/rectangle3.png';
 import quote1 from '../../asset/images/Quotation/quote1.png';
 import quote2 from '../../asset/images/Quotation/quote2.png';
+import underline13 from '../../asset/images/underlines/underline13.png';
 import './TalkAbout.css';
 const TalkAbout = () => {
 	return (
 		<Fragment>
 			<Container className='main-container text-center '>
 				<h4 className='main-title'>Talk About Us!</h4>
+				<img className='underline-13' src={underline13} alt='' />
 				<Row>
 					<Col lg={6} md={6} sm={12}>
 						<div>

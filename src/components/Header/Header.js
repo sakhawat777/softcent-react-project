@@ -5,6 +5,7 @@ import Vector1 from '../../asset/images/vectors/Vector1.png';
 import Vector2 from '../../asset/images/vectors/Vector2.png';
 import Vector3 from '../../asset/images/vectors/Vector3.png';
 import Vector4 from '../../asset/images/vectors/Vector4.png';
+import underline1 from '../../asset/images/underlines/underline1.png';
 const Header = () => {
 	return (
 		<Fragment>
@@ -16,6 +17,7 @@ const Header = () => {
 								Software services for <br /> startups without <br />{' '}
 								limits..
 							</h2>
+							<img className='underline-1' src={underline1} alt='' />
 						</div>
 						<div>
 							<p className='header-para'>

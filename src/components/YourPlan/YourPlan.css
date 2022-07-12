@@ -39,3 +39,31 @@
     border-radius: 12px;
    
 }
+.underline-5{
+    width: 10%;
+    position:relative;
+    bottom:23px;
+ left: 490px;
+   
+  }
+  .rectangle-11{
+    width:22%;
+    height:10%;
+    position: relative;
+    top: 32px;
+    right: 128px;
+  }
+  .rectangle-12{
+    width:30%;
+    height:10%;
+    position: relative;
+    top: 32px;
+    right: 122px;
+  }
+  .rectangle-13{
+    width:30%;
+    height:10%;
+    position: relative;
+    top: 32px;
+    right: 122px;
+  }

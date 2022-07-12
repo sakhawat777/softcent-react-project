@@ -5,11 +5,14 @@ import image6 from '../../asset/images/designTechnology/image6.png';
 import image7 from '../../asset/images/designTechnology/image7.png';
 import image8 from '../../asset/images/designTechnology/image8.png';
 import image9 from '../../asset/images/designTechnology/image9.png';
+import underline16 from '../../asset/images/underlines/underline16.png';
+import './DesignTechnology.css';
 const DesignTechnology = () => {
 	return (
 		<Fragment>
 			<Container className='main-container text-center '>
 				<h4 className='main-title'>Our Design Technology</h4>
+				<img className='underline-16' src={underline16} alt='' />
 				<Row>
 					<div className='d-flex justify-content-between'>
 						<Col lg={2} md={2} sm={12}>
