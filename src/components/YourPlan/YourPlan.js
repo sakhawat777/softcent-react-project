@@ -33,7 +33,7 @@ const YourPlan = () => {
 									src={rectangle11}
 									alt=''
 								/>
-								<p className='price-tag mt-3 me-3'>$899/ mo</p>
+								<p className='price-tag mt-4 me-3'>$899/ mo</p>
 							</div>
 							<div className='d-flex'>
 								<img
@@ -130,7 +130,7 @@ const YourPlan = () => {
 										src={rectangle11}
 										alt=''
 									/>
-									<p className='price-tag2 mt-3 me-3'>$1000/ mo</p>
+									<p className='price-tag2 me-3'>$1000/ mo</p>
 								</div>
 							</div>
 							<div className='d-flex'>
@@ -213,7 +213,7 @@ const YourPlan = () => {
 							</div>
 							<div className='d-flex justify-content-center'>
 								<button className='price-btn mt-3 mb-4 text-center'>
-									$899 / mo
+									$1000/ mo
 								</button>
 							</div>
 						</div>
@@ -228,8 +228,9 @@ const YourPlan = () => {
 										src={rectangle13}
 										alt=''
 									/>
+
+									<p className='price-tag me-3 '>$1000/ mo</p>
 								</div>
-								<p className='price-tag mt-3 me-3 '>$1000/ mo</p>
 							</div>
 
 							<div className='d-flex'>
@@ -312,7 +313,7 @@ const YourPlan = () => {
 							</div>
 							<div className='d-flex justify-content-center'>
 								<button className='price-btn mt-3 mb-4 text-center'>
-									$899 / mo
+									$1000/ mo
 								</button>
 							</div>
 						</div>

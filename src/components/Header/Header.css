@@ -20,24 +20,27 @@
 .vector-1{
   position:absolute;
   top: 200px;
+  right: 20px;
 }
 .vector-2{
    position:absolute;
- top: 350px;
+   top: 350px;
+   right: 20px;
     
 }
 .vector-3{
   position:absolute;
- right: 250px;
+ right:190px;
    
 }
 .vector-4{
     position: relative;
-   left: 150px;
+   left: 60px;
 }
 .underline-1{
-  width: 23%;
-  position:relative;
-  bottom: 95px;
+  width: 33%;
+  position: relative;
+  bottom: 195px;
+  right: 160px;
  
 }

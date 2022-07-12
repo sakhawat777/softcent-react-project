@@ -10,7 +10,7 @@ const OurProducts = () => {
 	return (
 		<Fragment>
 			<Container className='container'>
-				<h4 className='main-header mb-4 mt-5'>Our Products</h4>
+				<h4 className='main-header text-start mb-4 mt-5'>Our Products</h4>
 				<img className='underline-4' src={underline4} alt='' />
 				<Row>
 					<Col lg={8} md={8} sm={12}>

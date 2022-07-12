@@ -9,7 +9,7 @@ const WhatWeDo = () => {
 	return (
 		<Fragment>
 			<Container className='main-container'>
-				<h4 className='main-title mb-5'>What We Do</h4>
+				<h4 className='main-title text-start mb-5'>What We Do</h4>
 				<img className='underline-3' src={underline3} alt='' />
 				<Row>
 					<Col lg={4} md={4} sm={12}>
