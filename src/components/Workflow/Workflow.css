@@ -5,12 +5,33 @@
   
 }
 .main-title{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #040415;
     margin-bottom: 80px;
 }
 .underline-17{
     width: 10%;
     position:relative;
     bottom: 80px;
-   
-   
+  }
+  .goal-header{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #040415;
+  }
+  .goal-para{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(4, 4, 21, 0.6);
   }

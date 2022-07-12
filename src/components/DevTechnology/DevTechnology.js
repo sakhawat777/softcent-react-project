@@ -16,16 +16,16 @@ const DevTechnology = () => {
 				<img className=' underline-15' src={underline15} alt='' />
 				<Row>
 					<Col lg={3} md={3} sm={12}>
-						<h6>Programming Languages</h6>
+						<h6 className='header-h4'>Programming Languages</h6>
 					</Col>
 					<Col lg={3} md={3} sm={12}>
-						<h6>Frameworks</h6>
+						<h6 className='header-h4'>Frameworks</h6>
 					</Col>
 					<Col lg={3} md={3} sm={12}>
-						<h6>Databases</h6>
+						<h6 className='header-h4'>Databases</h6>
 					</Col>
 					<Col lg={3} md={3} sm={12}>
-						<h6>Mobile Platforms</h6>
+						<h6 className='header-h4'>Mobile Platforms</h6>
 					</Col>
 
 					<div className='d-flex justify-content-between'>

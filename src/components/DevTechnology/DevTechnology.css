@@ -1,3 +1,21 @@
+.main-title{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #040415;
+}
+.header-h4{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #040415;
+}
 .dev-technology-img{
     width:60px;
     height:60px;

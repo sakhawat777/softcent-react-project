@@ -30,10 +30,10 @@ const TalkAbout = () => {
 						<div className='mt-5 d-flex justify-content-start'>
 							<img className='ellipse5-img' src={ellipse5} alt='' />
 							<div>
-								<h6 className='d-flex justify-content-center'>
+								<h6 className='sub-para1 d-flex justify-content-center'>
 									Shuvo Roy
 								</h6>
-								<p className='ms-4'>Softcent Co-Founder</p>
+								<p className=' sub-para2 ms-4'>Softcent Co-Founder</p>
 							</div>
 						</div>
 						<div className='mt-5 d-flex justify-content-start'>

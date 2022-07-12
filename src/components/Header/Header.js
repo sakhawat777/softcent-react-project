@@ -11,7 +11,7 @@ const Header = () => {
 		<Fragment>
 			<Container className='container'>
 				<Row>
-					<Col lg={6} md={6} sm={12}>
+					<Col lg={8} md={8} sm={12}>
 						<div className='main-header'>
 							<h2>
 								Software services for <br /> startups without <br />{' '}
@@ -27,7 +27,7 @@ const Header = () => {
 							</p>
 						</div>
 					</Col>
-					<Col lg={6} md={6} sm={12}>
+					<Col lg={4} md={4} sm={12}>
 						<div className='main-header-2'>
 							<img className='vector-1' src={Vector1} alt='' />
 							<img className='vector-2' src={Vector2} alt='' />

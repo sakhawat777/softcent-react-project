@@ -4,10 +4,17 @@
   
 }
 .nav-link {
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
 	text-decoration: none;
     margin-right: 15px;
+	color: rgba(4, 4, 21, 0.8);
 	
 }
+
 
 
 

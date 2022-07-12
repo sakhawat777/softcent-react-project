@@ -15,9 +15,9 @@ const WhatWeDo = () => {
 					<Col lg={4} md={4} sm={12}>
 						<div className='title-block mb-4'>
 							<img src={branding} alt='' />
-							<h6 className='mt-4 ms-2'>Branding</h6>
+							<h6 className='head-title mt-4 ms-2'>Branding</h6>
 						</div>
-						<div className=''>
+						<div className='head-subtitle'>
 							<p>Brand Strategy </p>
 							<p>Social media </p>
 							<p>Marketing Assets </p>
@@ -29,9 +29,9 @@ const WhatWeDo = () => {
 					<Col lg={4} md={4} sm={12}>
 						<div className='title-block mb-4'>
 							<img src={ux} alt='' />
-							<h6 className='mt-3  ms-2'>UI/UX Design</h6>
+							<h6 className='head-title mt-3  ms-2'>UI/UX Design</h6>
 						</div>
-						<div>
+						<div className='head-subtitle'>
 							<p>Brand Strategy </p>
 							<p>Social media </p>
 							<p>Marketing Assets </p>
@@ -43,9 +43,9 @@ const WhatWeDo = () => {
 					<Col lg={4} md={4} sm={12}>
 						<div className='title-block mb-4'>
 							<img src={ux} alt='' />
-							<h6 className='mt-3  ms-2'>Development</h6>
+							<h6 className='head-title mt-3  ms-2'>Development</h6>
 						</div>
-						<div>
+						<div className='head-subtitle'>
 							<p>Brand Strategy </p>
 							<p>Social media </p>
 							<p>Marketing Assets </p>

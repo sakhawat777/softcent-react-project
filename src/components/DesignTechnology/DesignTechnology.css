@@ -4,3 +4,12 @@
     bottom: 85px;
    
   }
+  .main-title{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #040415;
+  }

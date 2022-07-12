@@ -8,17 +8,63 @@
     border-radius: 10px;
 }
 .bg-header{
-    color: #FFFF;
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
 }
 .project-btn{
-    background-color: #CEDEF4;
-    width:auto;
-    height:35px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D5BFF;
+    background-color: #FFFFFF;
+    width:197.86px;
+    height:60.52px;
     border: none;
     border-radius: 5px;
 }
+.logo-2{
+    width: 132px;
+    height: 87.14px;
+}
+.email, .phone {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(4, 4, 21, 0.8);
+}
 .footer-para{
-    font-size:x-small;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(4, 4, 21, 0.6);
+}
+.header-6{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #040415;
+}
+.footer-common-para{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(4, 4, 21, 0.6);
 }
 .fb-img{
     background-image: url("../../asset/images/socialMedia/fb-bg.png"); 
@@ -41,4 +87,13 @@
     right: 16px;
     bottom: 4px;
    
+}
+.footer-copyright{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(4, 4, 21, 0.6);
 }

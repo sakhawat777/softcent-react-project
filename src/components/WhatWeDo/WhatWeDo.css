@@ -1,4 +1,28 @@
 
+.main-title{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: rgba(4, 4, 21, 0.8);
+}
+.head-title{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: rgba(4, 4, 21, 0.8);
+}
+.head-subtitle{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(4, 4, 21, 0.8);
+}
 .title-block{
     display:flex;
     

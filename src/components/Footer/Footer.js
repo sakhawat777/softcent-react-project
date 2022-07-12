@@ -26,14 +26,14 @@ const Footer = () => {
 						</div>
 					</Col>
 					<Col lg={3} md={3} sm={12}>
-						<img src={logo2} alt='' />
+						<img className='logo-2' src={logo2} alt='' />
 						<p className='footer-para'>
 							Get a fully stacked design team that will <br /> give you
 							accessible design, exhaustive <br /> research, and an
 							outstanding experience.
 						</p>
-						<p>Email: info@softcent.eu</p>
-						<p>Phone: +(372) 57836500</p>
+						<p className='email'>Email: info@softcent.eu</p>
+						<p className='phone'>Phone: +(372) 57836500</p>
 						<div>
 							<img className='fb-img me-2' src={fb} alt='' />
 							<img className='ms-2' src={wa} alt='' />
@@ -45,35 +45,37 @@ const Footer = () => {
 						</div>
 					</Col>
 					<Col lg={3} md={3} sm={12}>
-						<h6>Company</h6>
-						<p>About us</p>
-						<p>Our portfolio</p>
-						<p>Our Product</p>
-						<p>Our Team</p>
-						<p>Our Pricing</p>
-						<p>Testimonials</p>
-						<p>Contact Us</p>
+						<h6 className='header-6'>Company</h6>
+						<p className='footer-common-para'>About us</p>
+						<p className='footer-common-para'>Our portfolio</p>
+						<p className='footer-common-para'>Our Product</p>
+						<p className='footer-common-para'>Our Team</p>
+						<p className='footer-common-para'>Our Pricing</p>
+						<p className='footer-common-para'>Testimonials</p>
+						<p className='footer-common-para'>Contact Us</p>
 					</Col>
 					<Col lg={3} md={3} sm={12}>
-						<h6>Our Service</h6>
-						<p>Marketing</p>
-						<p>UI/UX Design</p>
-						<p>Graphic Design (Branding)</p>
-						<p>Development</p>
-						<p>New Products</p>
+						<h6 className='header-6'>Our Service</h6>
+						<p className='footer-common-para'>Marketing</p>
+						<p className='footer-common-para'>UI/UX Design</p>
+						<p className='footer-common-para'>
+							Graphic Design (Branding)
+						</p>
+						<p className='footer-common-para'>Development</p>
+						<p className='footer-common-para'>New Products</p>
 					</Col>
 					<Col lg={3} md={3} sm={12}>
-						<h6>Supports</h6>
-						<p>FAQs</p>
-						<p>Support Policy</p>
-						<p>Privacy Policy</p>
-						<p>Trams of Service</p>
-						<p>Refund Policy</p>
+						<h6 className='header-6'>Supports</h6>
+						<p className='footer-common-para'>FAQs</p>
+						<p className='footer-common-para'>Support Policy</p>
+						<p className='footer-common-para'>Privacy Policy</p>
+						<p className='footer-common-para'>Trams of Service</p>
+						<p className='footer-common-para'>Refund Policy</p>
 					</Col>
 				</Row>
 				<div>
 					<img src={line1} alt='' />
-					<p className='text-center'>
+					<p className='footer-copyright text-center'>
 						© 2022, Softcent EU, A European IT company
 					</p>
 				</div>

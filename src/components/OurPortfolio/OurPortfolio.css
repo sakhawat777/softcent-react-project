@@ -1,6 +1,31 @@
+.main-title{
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #040415;
+}
 .underline-14{
     width: 12%;
     position:relative;
     bottom: 30px;
    
+  }
+  .img-header{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(4, 4, 21, 0.8);
+  }
+  .btn-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
   }

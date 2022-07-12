@@ -13,7 +13,7 @@ const OurProducts = () => {
 				<h4 className='main-header mb-4 mt-5'>Our Products</h4>
 				<img className='underline-4' src={underline4} alt='' />
 				<Row>
-					<Col lg={6} md={6} sm={12}>
+					<Col lg={8} md={8} sm={12}>
 						<div className='subtitle'>
 							<p className='header-para'>
 								We believe that great design should not be out of reach,
@@ -22,7 +22,7 @@ const OurProducts = () => {
 							</p>
 						</div>
 					</Col>
-					<Col lg={6} md={6} sm={12}>
+					<Col lg={4} md={4} sm={12}>
 						<div className='d-flex justify-content-end'>
 							<button className='btn btn-primary'>See More</button>
 						</div>
@@ -33,8 +33,8 @@ const OurProducts = () => {
 				<Row>
 					<Col lg={6} md={6} sm={12}>
 						<div className='product-section'>
-							<h3>SwipeXYZ Product</h3>
-							<p>
+							<h3 className='product-header'>SwipeXYZ Product</h3>
+							<p className='product-para'>
 								Lorem Ipsum is simply dummy text of the printing and{' '}
 								<br />
 								typesetting industry. Lorem Ipsum has been the <br />{' '}
@@ -63,8 +63,8 @@ const OurProducts = () => {
 				</Col>
 				<Col lg={6} md={6} sm={12}>
 					<div className='product-section ms-5'>
-						<h3>Cashback Product</h3>
-						<p>
+						<h3 className='product-header'>Cashback Product</h3>
+						<p className='product-para'>
 							Lorem Ipsum is simply dummy text of the printing and <br />
 							typesetting industry. Lorem Ipsum has been the <br />{' '}
 							industry's standard dummy text ever since the 1500s, <br />{' '}

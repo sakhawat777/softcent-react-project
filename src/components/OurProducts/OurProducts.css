@@ -1,3 +1,35 @@
+.main-header{
+  font-family: 'Overlock';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: rgba(4, 4, 21, 0.8);
+}
+.header-para{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(4, 4, 21, 0.6);
+}
+.product-header{
+  font-family: 'Overlock';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: rgba(4, 4, 21, 0.8);
+}
+.product-para{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(4, 4, 21, 0.8);
+}
 .background-img{
   background-image: url("../../asset/images/background/Rectangle1.png"); 
     height: 94.5vh;
@@ -46,11 +78,18 @@ margin-top: 30px;
   
 }
 .product-btn{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(4, 4, 21, 0.8);
   background-color: #CEDEF4;
- width: 159.35px;
- height:52px;
- border: none;
- border-radius: 10px;
+  width: 159.35px;
+  height:52px;
+  border: none;
+  border-radius: 10px;
 }
 .product-section{
   margin-top: 150px;

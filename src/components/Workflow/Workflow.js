@@ -15,19 +15,19 @@ const Workflow = () => {
 				<Row>
 					<Col lg={6} md={6} sm={12}>
 						<div className='mt-5 goal-section '>
-							<h6>1. Defining Goal</h6>
-							<p>
+							<h6 className='goal-header'>1. Defining Goal</h6>
+							<p className='goal-para'>
 								Project analysis, defining project requirements and
 								objectives <br /> based on clients needs, cost and
 								effort estimation, creating <br /> value and process
 								planning.
 							</p>
 						</div>
-						<h6 className='mt-4'>2. Product Design</h6>
-						<h6 className='mt-4'>3. Development</h6>
-						<h6 className='mt-4'>4. Testing</h6>
-						<h6 className='mt-4'>5. Product Release</h6>
-						<h6 className='mt-4'>6. Maintenance Support</h6>
+						<h6 className='goal-header mt-4'>2. Product Design</h6>
+						<h6 className='goal-header mt-4'>3. Development</h6>
+						<h6 className=' goal-header mt-4'>4. Testing</h6>
+						<h6 className='goal-header mt-4'>5. Product Release</h6>
+						<h6 className=' goal-header mt-4'>6. Maintenance Support</h6>
 					</Col>
 					<Col lg={6} md={6} sm={12}>
 						<img className='work-flow-img' src={workFlow} alt='' />
