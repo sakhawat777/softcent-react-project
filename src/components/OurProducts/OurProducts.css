@@ -32,20 +32,21 @@
 }
 .background-img{
   background-image: url("../../asset/images/background/Rectangle1.png"); 
-    height:91%;
-    width:133.5%;
+    height:78.2vh;
+    width:774.8px;
     background-size:cover;
     background-repeat: no-repeat;
-   
+    border: 5px solid red;
           
 }
 .background-img2{
   background-image: url("../../asset/images/background/Rectangle2.png"); 
-    height:111%;
-    width: 103.5%;
+    height:78.2vh;
+    width: 774.8px;
     background-size:cover;
+    object-fit: cover;
     background-repeat: no-repeat;
-    
+    border: 5px solid goldenrod;
    
           
 }

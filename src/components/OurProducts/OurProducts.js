@@ -15,7 +15,7 @@ const OurProducts = () => {
 				<Row>
 					<Col lg={8} md={8} sm={12}>
 						<div className='subtitle'>
-							<p className='header-para'>
+							<p className='header-para text-start'>
 								We believe that great design should not be out of reach,
 								so our services <br /> are less than half the price of a
 								full-time designer.

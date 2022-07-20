@@ -34,3 +34,12 @@
     bottom: 50px;
    
 }
+@media (max-width: 768px) {
+    .main-title{ 
+        text-align: center !important;
+    }
+    .underline-3{
+        position:relative;
+        left: 100px;
+     }
+ }
