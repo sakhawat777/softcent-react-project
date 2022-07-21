@@ -32,19 +32,19 @@
 }
 .background-img{
   background-image: url("../../asset/images/background/Rectangle1.png"); 
-    height:78.2vh;
-    width:774.8px;
+    height:63vh;
+    width:50.4vw;
     background-size:cover;
     background-repeat: no-repeat;
-   
+    
           
 }
 .background-img2{
   background-image: url("../../asset/images/background/Rectangle2.png"); 
-    height:78.2vh;
-    width: 774.8px;
+    height:63vh;
+    width: 50.4vw;
     background-size:cover;
-    object-fit: cover;
+    /* object-fit: cover; */
     background-repeat: no-repeat;
    
    
